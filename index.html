@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contactdetails.html">Contacts</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: black;
+            padding: auto;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: yellowgreen;
+            color: black;
+        }
+        
+        .topnav a.active {
+            background-color: black;
+            color: whitesmoke;
+        }
+        
+        .topnav .icon {
+            display: none;
+        }
+        
+        box {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        
+        header {
+            display: flex;
+            background-color: black;
+            align-items: center;
+            padding: 30px 10%;
+        }
+        
+        footer {
+            display: flex;
+            background-color: black;
+            align-items: center;
+            padding: 30px 10%;
+        }
+        
+        @media screen and (max-width:600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            @media screen and (max-width:600px) {
+                .topnav a:not(:first-child) {
+                    display: none;
+                }
+                .topnav a.icon {
+                    float: right;
+                    display: block;
+                }
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+        
+        body {
+            background-color: whitesmoke;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: auto;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+            border-collapse: collapse;
+        }
+        
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: gray;
+        }
+        
+        .responsive {
+            width: 70%;
+            height: auto;
+        }
+        
+        p {
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: auto;
+        }
+        
+        h1 {
+            color: black;
+        }
+        
+        h2 {
+            color: black;
+        }
+        
+        h3 {
+            color: black;
+        }
+        
+        ul {
+            background-size: auto;
+            color: black;
+        }
+        
+        .center {
+            margin: auto;
+            width: 70%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="center">
+        <h1>Home</h1>
+        <article>
+
+            <p>
+                Information, Communication and Techcnology(ICT), are the diverse technological tools and equipments that are used in transmitting and recieving data.
+            </p>
+        </article>
+        <br>
+        <h1>Lestor ICT</h1>
+        <p>
+            Here at Lestor ICT we strive to provide the best service that we can, in the ICT industry. As we Know that the tech industry is growing at a fast rate.
+            <br> Technology is advancing, so more and more businesses should invest in their IT infrastructure. And that's where we come in
+        </p>
+    </div>
+    <br>
+
+    <div class="center">
+        <h2>Services</h2>
+        <p>These are some of the services we offer, and with time, our services will grow, and we'll be able to help out our cityzens more effectively</p>
+        <table>
+            <tr>
+                <th>Services</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Cellphone repairs</td>
+                <td>We rapair cellphones at a good price</td>
+            </tr>
+            <tr>
+                <td>Cloud services</td>
+                <td>We offer cloud services as well such as cloud storage, and cloud computing</td>
+            </tr>
+            <tr>
+                <td>Laptop repairs</td>
+                <td>We rapair laptops as well</td>
+            </tr>
+            <tr>
+                <td>IT education</td>
+                <td>We also educate people about the latest and leading technologies</td>
+            </tr>
+        </table>
+        <p>We aspire to become one of the leading ICT companies in the country</p>
+    </div>
+    <br>
+    <div class="center">
+        <p>
+            Tech is such an interesting and fascinating industry, and here at Lestor ICT we aspire to become one of the leading companies in:
+        </p>
+        <ul class="center">
+            <li>Spreading the word about tech, and enabling people to be more tech savvy, as the world is becoming more and more technological, and relying heavily on technology</li>
+            <img class="responsive" width="600" height="500" src="laptops-g1924eb775_1920.jpg">
+            <li>We would also like to teach people about software, how it works, and how to build and design good software.
+            </li>
+            <img class="responsive" width="600" height="500" src="wp8946010-computer-software-wallpapers.jpg">
+            <li>
+                One day we aspire to become one of the leading companies in networking, and we will soon offer lessons in networking.
+            </li>
+            <img class="responsive" width="600" height="500" src="wp2044697-networking-wallpapers.jpg">
+            <li>
+                As the world moves to being more online, so that's why here at Lestor ICT we focus on cloud computing, and offer cloud services to people such as cloud storage and cloud processing.
+            </li>
+            <img class="responsive" width="600" height="500" src="wp3929762-cloud-computing-wallpapers.jpg">
+        </ul>
+    </div>
+</body>
+<footer>
+    <p>Lestor ICT</p>
+
+    <a href="index.html ">Home</a>
+    <a href="contactdetails.html">Contact us</a> >
+    <a href="about.html ">About us</a>
+
+</footer>
+
+</html>
